@@ -1,0 +1,57 @@
+
+@font-face {
+	font-family: jlg-Bold;
+		src: url(jeanlucweb-bold.eot);
+		src: local(jeanlucweb-bold.eot), 
+url("jeanlucweb-bold.woff") 
+format("woff"), url("jeanlucweb-bold.otf") format("opentype"), 
+url("jeanlucweb-bold#webfontup15foyj") format("svg");
+}
+
+@font-face {
+	font-family: jlg-Thin;
+		src: url(jeanlucweb-thin.eot);
+		src: local(jeanlucweb-thin.eot), 
+url("jeanlucweb-thin.woff") 
+format("woff"), url("jeanlucweb-thin.otf") format("opentype"), 
+url("jeanlucweb-thin#webfontdsa4toug") format("svg");
+}
+
+
+#header,
+.blue { 
+color: rgb(57,70,140);
+}
+
+#header {
+font-family: jlg-Bold;
+font-size: 150px;
+}
+
+body {
+text-align: center; 
+background-color: black;
+color: rgb(238,62,70);
+font-family: jlg-Thin, verdana, sans-serif;
+font-size: 30px;
+}
+
+.red {
+color: rgb(238,62,70);
+}
+
+
+.white,
+.link {
+color: white; 
+}
+
+.belmondo {
+object-position: 50%, 25%;
+height: 250px; 
+width: auto;
+}
+
+.vcat {
+object-position: left 10px top 30px;
+}
