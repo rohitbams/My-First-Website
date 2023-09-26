@@ -36,10 +36,10 @@ font-family: jlg-Thin, verdana, sans-serif;
 font-size: 30px;
 }
 
-.red {
-color: rgb(238,62,70);
+.ascii {
+color: white;
+font-size: 20px;
 }
-
 
 .white,
 .link {
