@@ -1,0 +1,42 @@
+@font-face {
+        font-family: jlg-Bold;
+                src: url(jeanlucweb-bold.eot);
+                src: local(jeanlucweb-bold.eot),
+url("jeanlucweb-bold.woff")
+format("woff"), url("jeanlucweb-bold.otf") format("opentype"),
+url("jeanlucweb-bold#webfontup15foyj") format("svg");
+}
+
+@font-face {
+        font-family: jlg-Thin;
+                src: url(jeanlucweb-thin.eot);
+                src: local(jeanlucweb-thin.eot),
+url("jeanlucweb-thin.woff")
+format("woff"), url("jeanlucweb-thin.otf") format("opentype"),
+url("jeanlucweb-thin#webfontdsa4toug") format("svg");
+}
+
+.home,
+.blue,
+.white {
+font-family: jlg-Bold, helvetica, sans-serif;
+font-size: 45px;
+}
+
+.white {
+color: white;
+}
+
+.home,
+.blue {
+color: rgb(57,70,142);
+}
+
+body {
+text-align: left;
+background-color: black;
+color: rgb(238,62,70);
+font-size: 24px;
+}
+
+
