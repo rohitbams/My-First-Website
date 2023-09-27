@@ -1,21 +1,18 @@
 
 
 @font-face {
-        font-family: jlg-Bold;
-                src: url(../fonts/jlg-Bold.otf) format(opentype);
-                src: local(../fonts/jlg-Bold.otf) format("opentype"),
-                src: url(../fonts/jlg-Bold.woff) format("woff"), 
-                src: url(jlg-Bold.eot) format("eot"),
-                url("jeanlucweb-bold#webfontup15foyj") format("svg");
+        font-family: jlg-Thin;
+                src: url("../fonts/jlg-Thin.woff") format("woff");
+                font-weight: normal;
+                font-size: normal;
 }
 
 @font-face {
-        font-family: jlg-Thin;
-                src: url(../fonts/jlg-Thin.otf) format(opentype);
-                src: local(../fonts/jlg-Thin.otf) format("opentype"),
-                src: url(../fonts/jlg-Thin.woff) format("woff"), 
-                src: url(jlg-Thin.eot) format("eot"),
-                url("jeanlucweb-thin#webfontdsa4toug") format("svg");
+        font-family: jlg-Bold;
+                src: url("../fonts/jlg-Bold.woff") format("woff");
+                font-weight: bold;
+                font-size: normal;
+
 }
 
 
