@@ -15,24 +15,28 @@
 
 }
 
+/*The Jean-Luc typeface was designed and made by Atelier Carvalho Bernau on the occasion of the 80th birthday of Jean-Luc Godard. It is available free of charge from http://www.carvalho-bernau.com/jlg/
+
+Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
+*/
 
 .home,
-.blue,
-.white {
+.even,
+.odd {
 font-family: jlg-Bold, helvetica, sans-serif;
 font-size: 45px;
 }
 
-.white {
+.odd {
 color: white;
 }
 
 .home,
-.blue {
+.even {
 color: rgb(57,70,142);
 }
 
-body {
+.listbody {
 text-align: left;
 background-color: black;
 color: rgb(238,62,70);

@@ -14,41 +14,128 @@
 
 }
 
+/*The Jean-Luc typeface was designed and made by Atelier Carvalho Bernau on the occasion of the 80th birthday of Jean-Luc Godard. It is available free of charge from http://www.carvalho-bernau.com/jlg/
+
+Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
+*/
 
 #header,
 .blue { 
-color: rgb(57,70,140);
+	font-family: jlg-Bold;
+	color: rgb(57,70,140);
 }
 
 #header {
-font-family: jlg-Bold;
-font-size: 150px;
+	font-size: 130px;
 }
 
 body {
-text-align: center; 
-background-color: black;
-color: rgb(238,62,70);
-font-family: jlg-Thin, verdana, sans-serif;
-font-size: 30px;
+	background-color: black;
+	text-align:center;
+	color: rgb(238,62,70);
+	font-size: 30px;
+	font-family: jlg-Thin, verdana, sans-serif;
+}
+
+.listbody {
+	background-color: black;
+	text-align: left; 
+	color: rgb(238,62,70);
+	font-family: jlg-Thin, verdana, sans-serif;
+	font-size: 30px;
 }
 
 .ascii {
-color: white;
-font-size: 20px;
+	color: white;
+	font-size: 20px;
 }
 
 .white,
 .link {
-color: white; 
+	color: white; 
 }
 
 .belmondo {
-object-position: 50%, 25%;
-height: 300px; 
-width: auto;
+	object-position: 50%, 25%;
+	height: 300px; 
+	width: auto;
 }
 
 .vcat {
-object-position: left 10px top 30px;
+	object-position: left 10px top 30px;
 }
+
+/* End index.html, start about.html */
+
+/*	.head,
+	.home,
+	.hag, {
+	color: rgb(57,70,140);
+	font-family: jlg-Bold, Verdana, sans-serif;
+	}
+	
+	.hag {
+	font-size: 45px;
+	}
+	
+	.home {
+	font-size: 40px;
+	}
+	
+	.head {
+	font-size: 100px;
+	}
+	
+	del {
+	color: white;
+	}
+
+
+/* End about.html, start lists,html */
+
+/*
+.white {
+	font-family: jlg-Bold, helvetica, sans-serif;
+	font-size: 45px;
+}
+
+.white {
+	color: white;
+}
+
+.home, {
+	color: rgb(57,70,142);
+}
+
+.listbody {
+	text-align: left;
+	background-color: black;
+	color: rgb(238,62,70);
+	font-size: 24px;
+}
+
+
+/* End lists,html, start goblin.html */
+/*
+#header {
+	color: rgb(57,70,140);
+	font-family: jlg-Bold, Verdana, sans-serif;
+	font-size: 100px;
+	}
+	
+	h2 {
+	color: rgb(225,225,225);
+	font-family: jlg-Bold, Verdana, sans-serif;
+	font-size: 36px;
+	}
+	
+	.goblinbody {
+	background-color: black;
+	color: rgb(238,62,70);
+	text-align: left;
+	font-family: helvetica, verdana, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	}
+
+End goblin.html */
