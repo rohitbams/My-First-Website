@@ -1,18 +1,22 @@
 
+@font-face {
+	font-family: 'Shippori Antique B1';
+		src: url("../fonts/ShipporiAntiqueB1-Regular.ttf") format("ttf");
+}
 
 
 @font-face {
-        font-family: jlg-Thin;
-                src: url("../fonts/jlg-Thin.woff") format("woff");
-                font-weight: normal;
-                font-size: normal;
+	font-family: jlg-Thin;
+			src: url('../fonts/jlg-Thin.woff') format('woff');
+			font-weight: normal;
+			font-size: normal;
 }
 
 @font-face {
-        font-family: jlg-Bold;
-                src: url("../fonts/jlg-Bold.woff") format("woff");
-                font-weight: bold;
-                font-size: normal;
+	font-family: jlg-Bold;
+			src: url('../fonts/jlg-Bold.woff') format('woff');
+			font-weight: bold;
+			font-size: normal;
 
 }
 
@@ -24,7 +28,7 @@ Jean-Luc typeface Copyright (c) 2010 Atelier Carvalho Bernau
 .aboutbody {
 background-color: black;
 text-align: center;
-font-family: helvetica, verdana, sans-serif;
+font-family: 'Shippori Antique B1', helvetica, verdana, sans-serif;
 font-size: 24px;
 color: rgb(238,62,70);
 }
@@ -33,7 +37,7 @@ color: rgb(238,62,70);
 .hag,
 .head {
 color: rgb(57,70,140);
-font-family: jlg-Bold, Verdana, sans-serif;
+font-family: 'jlg-Bold', Verdana, sans-serif;
 }
 
 .hag {
