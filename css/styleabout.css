@@ -1,20 +1,20 @@
 
 @font-face {
 	font-family: 'Shippori Antique B1';
-		src: url("../fonts/ShipporiAntiqueB1-Regular.ttf") format("ttf");
+		src: url("../Fonts/ShipporiAntiqueB1-Regular.ttf") format("ttf");
 }
 
 
 @font-face {
 	font-family: jlg-Thin;
-			src: url('../fonts/jlg-Thin.woff') format('woff');
+			src: url('../Fonts/jlg-Thin.woff') format('woff');
 			font-weight: normal;
 			font-size: normal;
 }
 
 @font-face {
 	font-family: jlg-Bold;
-			src: url('../fonts/jlg-Bold.woff') format('woff');
+			src: url('../Fonts/jlg-Bold.woff') format('woff');
 			font-weight: bold;
 			font-size: normal;
 
