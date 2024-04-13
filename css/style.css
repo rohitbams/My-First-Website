@@ -41,6 +41,34 @@ body {
 	font-family: 'Shippori Antique B1', verdana, sans-serif;
 }
 
+.password-title {
+	margin: 0;
+}
+
+#passwordForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	gap: 8px;
+	flex-direction: column;
+	width: fit-content;
+	font-size: 24px;
+	color: white;
+}
+
+.hint {
+	color: black;
+}
+.hint:hover {
+	padding: 8px;
+	color: rgb(238,62,70);
+}
+
+input {
+	text-align: center;
+}
+
 .ascii {
 	color: white;
 	font-size: 20px;
@@ -63,6 +91,15 @@ body {
 .vcat {
 	object-position: left 10px top 30px;
 }
+
+.video-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	height: 100vh;
+}
+
 
 /* End index.html, start about.html */
 
